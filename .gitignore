@@ -22,7 +22,6 @@ obj/
 *.opensdf
 *.tlog
 *.idb
-*.pdb
 *.ilk
 *.log
 *.lastbuildstate
@@ -39,7 +38,7 @@ cmake_install.cmake
 build/
 
 ### Compiled binaries ###
-*.exe
+
 *.exp
 
 ### Static/Dynamic libs ###
