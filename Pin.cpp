@@ -16,7 +16,7 @@ void Pin::Draw(GLuint ProgramId)
 	GLuint transLocation;
 	transLocation = glGetUniformLocation(ProgramId, "transformationMatrix");
 	glm::mat4 translationMatrix = glm::translate(glm::mat4(1.0f), this->center);
-	glm::mat4 transMat =  this->globalTransformation * translationMatrix *rotationMatrix;
+	glm::mat4 transMat =  translationMatrix *rotationMatrix;
 	glUniformMatrix4fv(transLocation, 1, GL_FALSE, &transMat[0][0]);
 
 	glBindVertexArray(this->vaoId);

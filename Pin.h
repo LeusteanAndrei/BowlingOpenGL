@@ -11,9 +11,7 @@ class Pin
 	public:
 
 	glm::vec3 center = glm::vec3(0.0, 0.0, 0.0);
-	float radius, height;
-	/*std::vector<Vertex> vertices;
-	std::vector<unsigned int> indices;*/
+	float radius = 1.0, height = 1.0f;
 
 	GLuint vaoId;
 	int indexCount;
@@ -33,6 +31,7 @@ class Pin
 		Pin pin;
 		pin.vaoId = this->vaoId;
 		pin.indexCount = this->indexCount;
+		pin.center = this->center;
 		return pin;
 	}
 };

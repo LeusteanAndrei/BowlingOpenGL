@@ -40,7 +40,7 @@ float Refx = 0.0f, Refy = 0.0f, Refz = 0.0f;
 float alpha = 0.0f, beta = 0.0f, dist = 20.0f;
 float Obsx, Obsy, Obsz;
 float Vx = 0.0f, Vy = 0.0f, Vz = -1.0f;
-float incr_alpha1 = 0.1f, incr_alpha2 = 0.1f;
+float incr_alpha1 = 0.01f, incr_alpha2 = 0.01f;
 
 // variabile pentru matricea de proiectie
 float width = 800, height = 600, znear = 1, fov = 30;
@@ -84,61 +84,62 @@ void InitializePins()
 	
 	float distanceBetween = 1.0f;
 	float depth = -pinDepth;
-	pin.globalTransformation = glm::translate(glm::mat4(1.0f), glm::vec3(depth, 0.0f, 0.0f)) ;
+	//pin.globalTransformation = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f)) ;
 
 	pin.rotationMatrix = rotMatPin;
+	pin.center.x += depth;
 	pin.center += glm::vec3(0.0, 0.0, height);
-	pins.emplace_back(pin);
+	pins.push_back(pin);
 	
 	Pin pin2 = pin.fromPin(); 
 	pin2.rotationMatrix = rotMatPin;
-	pin2.center += glm::vec3(-distanceBetween, -distanceBetween, height);
+	pin2.center += glm::vec3(-distanceBetween, -distanceBetween, 0.0);
 	pins.push_back(pin2);
 
 	Pin pin3 = pin.fromPin();
 	pin3.rotationMatrix = rotMatPin;
-	pin3.center += glm::vec3(-distanceBetween, distanceBetween, height);
+	pin3.center += glm::vec3(-distanceBetween, distanceBetween, 0.0);
 	pins.push_back(pin3);
 
 
 
 	Pin pin4 = pin.fromPin(); // stanga
 	pin4.rotationMatrix = rotMatPin;
-	pin4.center += glm::vec3(-2 * distanceBetween, -distanceBetween * 2, height);
+	pin4.center += glm::vec3(-2 * distanceBetween, -distanceBetween * 2, 0.0);
 	pins.push_back(pin4);
 
 	Pin pin5 = pin.fromPin();
 	pin5.rotationMatrix = rotMatPin;
-	pin5.center += glm::vec3(-2 * distanceBetween, 0.0, height);
+	pin5.center += glm::vec3(-2 * distanceBetween, 0.0, 0.0);
 	pins.push_back(pin5);
 
 
 	Pin pin6 = pin.fromPin();
 	pin6.rotationMatrix = rotMatPin;
-	pin6.center += glm::vec3(-2 * distanceBetween, distanceBetween * 2, height);
+	pin6.center += glm::vec3(-2 * distanceBetween, distanceBetween * 2, 0.0);
 	pins.push_back(pin6);
 
 
 
 	Pin pin7 = pin.fromPin();
 	pin7.rotationMatrix = rotMatPin;
-	pin7.center += glm::vec3(-3 * distanceBetween, -2 * distanceBetween - distanceBetween, height);
+	pin7.center += glm::vec3(-3 * distanceBetween, -2 * distanceBetween - distanceBetween, 0.0);
 	pins.push_back(pin7);
 
 
 	Pin pin8 = pin.fromPin();
 	pin8.rotationMatrix = rotMatPin;
-	pin8.center += glm::vec3(-3 * distanceBetween, -distanceBetween, height);
+	pin8.center += glm::vec3(-3 * distanceBetween, -distanceBetween, 0.0);
 	pins.push_back(pin8);
 
 	Pin pin9 = pin.fromPin();
 	pin9.rotationMatrix = rotMatPin;
-	pin9.center += glm::vec3(-3 * distanceBetween, +distanceBetween, height);
+	pin9.center += glm::vec3(-3 * distanceBetween, +distanceBetween, 0.0);
 	pins.push_back(pin9);
 
 	Pin pin10 = pin.fromPin();
 	pin10.rotationMatrix = rotMatPin;
-	pin10.center += glm::vec3(-3 * distanceBetween, 2 * distanceBetween + distanceBetween, height);
+	pin10.center += glm::vec3(-3 * distanceBetween, 2 * distanceBetween + distanceBetween, 0.0);
 	pins.push_back(pin10);
 
 }
@@ -263,6 +264,8 @@ void SetMVP(void)
 
 void ProcessNormalKeys(unsigned char key, int x, int y)
 {
+	float ballForce = .1f;
+
 	switch (key) {			//	Apasarea tastelor `-` si `+` schimba pozitia observatorului (se departeaza / aproprie);
 	case '-':
 		dist += 10.0;
@@ -274,7 +277,16 @@ void ProcessNormalKeys(unsigned char key, int x, int y)
 		std::cout << "PLUS";
 
 		break;
+	case ' ':
+		ball.velocity = glm::vec3(-ballForce, 0.0f, 0.0f);
+		break;
+	case 'r':
+		ball.center = glm::vec3(0.0f, 0.0f, 0.0f);
+		InitializeBall();
+		ball.velocity = glm::vec3(0.0f, 0.0f, 0.0f);
+		break;
 	}
+
 	if (key == 27)
 		exit(0);
 }
@@ -289,6 +301,7 @@ void ProcessSpecialKeys(int key, int xx, int yy)
 	case GLUT_KEY_RIGHT:
 		ball.center.y += ballHoverSpeed;
 		break;
+
 	case GLUT_KEY_UP:
 		alpha += incr_alpha1;
 		if (abs(alpha - PI / 2) < 0.05)
@@ -297,7 +310,7 @@ void ProcessSpecialKeys(int key, int xx, int yy)
 		}
 		else
 		{
-			incr_alpha1 = 0.1f;
+			incr_alpha1 = 0.01f;
 		}
 		break;
 	case GLUT_KEY_DOWN:
@@ -308,10 +321,15 @@ void ProcessSpecialKeys(int key, int xx, int yy)
 		}
 		else
 		{
-			incr_alpha2 = 0.1f;
+			incr_alpha2 = 0.01f;
 		}
 		break;
 	}
+}
+
+void CheckCollissions()
+{
+	ball.CheckCollision(pins);
 }
 
 void RenderFunction(void)
@@ -328,7 +346,8 @@ void RenderFunction(void)
 	glPointSize(20);
 	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 
-
+	CheckCollissions();
+	ball.Move();
 
 
 	for (int i = pins.size() - 1; i >= 0; i--)
@@ -349,16 +368,16 @@ void Cleanup(void)
 int main(int argc, char* argv[])
 {
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowPosition(100, 100); // pozitia initiala a ferestrei
-	glutInitWindowSize(600, 600); //dimensiunile ferestrei
-	glutCreateWindow("Grafica pe calculator - primul exemplu"); // titlul ferestrei
-	glewInit(); // nu uitati de initializare glew; trebuie initializat inainte de a a initializa desenarea
+	glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE);
+	glutInitWindowPosition(100, 100); 
+	glutInitWindowSize(600, 600);
+	glutCreateWindow("Grafica pe calculator - primul exemplu"); 
+	glewInit(); 
 	Initialize();
 
 	glutIdleFunc(RenderFunction);
 	glutDisplayFunc(RenderFunction);
-	glutKeyboardFunc(ProcessNormalKeys);	//	Functii ce proceseaza inputul de la tastatura utilizatorului;
+	glutKeyboardFunc(ProcessNormalKeys);	
 	glutSpecialFunc(ProcessSpecialKeys);
 	glutCloseFunc(Cleanup);
 

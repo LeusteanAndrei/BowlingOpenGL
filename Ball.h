@@ -12,7 +12,7 @@ public:
 	glm::vec3 center;
 	float radius;
 
-	glm::vec3 velocity;
+	glm::vec3 velocity = glm::vec3(0.0, 0.0, 0.0);
 
 	GLuint vaoId;
 	int indexCount;
@@ -23,6 +23,11 @@ public:
 	void Move();
 	void Draw(GLuint ProgramId);
 	void LoadBall(std::string ballPath);
+
+
+	bool doesCollision(Pin pin);
+	void CheckCollision(std::vector<Pin> pins);
+
 
 };
  

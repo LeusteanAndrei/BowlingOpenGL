@@ -24,3 +24,36 @@ void Ball::Draw(GLuint ProgramId)
 	glBindVertexArray(this->vaoId);
 	glDrawElements(GL_TRIANGLES, this->indexCount, GL_UNSIGNED_INT, 0);
 }
+
+void Ball::Move()
+{
+	this->center += this->velocity;
+	this->velocity *= 0.98;
+}
+
+bool Ball::doesCollision(Pin pin) 
+{
+	float radiusTotal = this->radius + pin.radius;
+
+	glm::vec3 bottom = glm::vec3(this->center.x, this->center.y , this->center.z - this->radius);
+
+	float distance = glm::distance(bottom, pin.center);
+
+	if (distance < radiusTotal)
+		return true;
+
+	return false;
+}
+
+void Ball::CheckCollision(std::vector<Pin> pins)
+{
+	for (auto pin : pins)
+	{
+		if (doesCollision(pin))
+		{
+			std::cout << "Collision detected" << "\n";
+		}
+	}
+}
+
+

@@ -41,8 +41,6 @@ build/
 
 ### Compiled binaries ###
 *.exe
-*.dll
-*.lib
 *.exp
 
 ### Static/Dynamic libs ###
