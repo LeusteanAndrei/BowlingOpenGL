@@ -1,0 +1,13 @@
+C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/uninstall.dir
+C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/INSTALL.dir
+C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/ALL_BUILD.dir
+C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/ZERO_CHECK.dir
+C:/CPlusPlusLib/assimp/build_msvc/contrib/zlib/CMakeFiles/zlibstatic.dir
+C:/CPlusPlusLib/assimp/build_msvc/contrib/zlib/CMakeFiles/INSTALL.dir
+C:/CPlusPlusLib/assimp/build_msvc/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+C:/CPlusPlusLib/assimp/build_msvc/code/CMakeFiles/assimp.dir
+C:/CPlusPlusLib/assimp/build_msvc/code/CMakeFiles/INSTALL.dir
+C:/CPlusPlusLib/assimp/build_msvc/test/CMakeFiles/unit.dir
+C:/CPlusPlusLib/assimp/build_msvc/test/CMakeFiles/INSTALL.dir
+C:/CPlusPlusLib/assimp/build_msvc/test/headercheck/CMakeFiles/INSTALL.dir

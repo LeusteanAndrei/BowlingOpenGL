@@ -1,0 +1,702 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 1/6/2026 1:39:32 PM.
+      
+      Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.46
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/3.29.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 1/6/2026 1:39:35 PM.
+      
+      Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.21
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/3.29.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-arvtt9"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-arvtt9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-arvtt9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6277.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:38 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\cmTC_d6277.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d6277.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\".
+          Creating directory "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6277.dir\\Debug\\\\" /Fd"cmTC_d6277.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6277.dir\\Debug\\\\" /Fd"cmTC_d6277.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\cmTC_d6277.exe" /INCREMENTAL /ILK:"cmTC_d6277.dir\\Debug\\cmTC_d6277.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-arvtt9/Debug/cmTC_d6277.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-arvtt9/Debug/cmTC_d6277.lib" /MACHINE:X64  /machine:x64 cmTC_d6277.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d6277.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\cmTC_d6277.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\cmTC_d6277.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\cmTC_d6277.write.1u.tlog" "cmTC_d6277.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\cmTC_d6277.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\cmTC_d6277.write.1u.tlog" "cmTC_d6277.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\Debug\\cmTC_d6277.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\cmTC_d6277.write.1u.tlog" "cmTC_d6277.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d6277.dir\\Debug\\cmTC_d6277.tlog\\cmTC_d6277.lastbuildstate".
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-arvtt9\\cmTC_d6277.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35220.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-danclv"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-danclv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-danclv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45159.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:41 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\cmTC_45159.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_45159.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\".
+          Creating directory "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45159.dir\\Debug\\\\" /Fd"cmTC_45159.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45159.dir\\Debug\\\\" /Fd"cmTC_45159.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Strawberry\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\cmTC_45159.exe" /INCREMENTAL /ILK:"cmTC_45159.dir\\Debug\\cmTC_45159.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-danclv/Debug/cmTC_45159.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-danclv/Debug/cmTC_45159.lib" /MACHINE:X64  /machine:x64 cmTC_45159.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_45159.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\cmTC_45159.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\cmTC_45159.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\cmTC_45159.write.1u.tlog" "cmTC_45159.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\cmTC_45159.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\cmTC_45159.write.1u.tlog" "cmTC_45159.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\Debug\\cmTC_45159.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\cmTC_45159.write.1u.tlog" "cmTC_45159.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\unsuccessfulbuild".
+          Touching "cmTC_45159.dir\\Debug\\cmTC_45159.tlog\\cmTC_45159.lastbuildstate".
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-danclv\\cmTC_45159.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:107 (PROJECT)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35220.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-5tn7c2"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-5tn7c2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-5tn7c2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9ec3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:44 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\cmTC_9ec3b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9ec3b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\".
+          Creating directory "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ec3b.dir\\Debug\\\\" /Fd"cmTC_9ec3b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ec3b.dir\\Debug\\\\" /Fd"cmTC_9ec3b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\cmTC_9ec3b.exe" /INCREMENTAL /ILK:"cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-5tn7c2/Debug/cmTC_9ec3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-5tn7c2/Debug/cmTC_9ec3b.lib" /MACHINE:X64  /machine:x64 cmTC_9ec3b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9ec3b.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\cmTC_9ec3b.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\cmTC_9ec3b.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\cmTC_9ec3b.write.1u.tlog" "cmTC_9ec3b.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\cmTC_9ec3b.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\cmTC_9ec3b.write.1u.tlog" "cmTC_9ec3b.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\Debug\\cmTC_9ec3b.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\cmTC_9ec3b.write.1u.tlog" "cmTC_9ec3b.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9ec3b.dir\\Debug\\cmTC_9ec3b.tlog\\cmTC_9ec3b.lastbuildstate".
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-5tn7c2\\cmTC_9ec3b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-r6r33r"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-r6r33r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-r6r33r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4362a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:47 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\cmTC_4362a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4362a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\".
+          Creating directory "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4362a.dir\\Debug\\\\" /Fd"cmTC_4362a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4362a.dir\\Debug\\\\" /Fd"cmTC_4362a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\cmTC_4362a.exe" /INCREMENTAL /ILK:"cmTC_4362a.dir\\Debug\\cmTC_4362a.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-r6r33r/Debug/cmTC_4362a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-r6r33r/Debug/cmTC_4362a.lib" /MACHINE:X64  /machine:x64 cmTC_4362a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4362a.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\cmTC_4362a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\cmTC_4362a.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\cmTC_4362a.write.1u.tlog" "cmTC_4362a.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\cmTC_4362a.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\cmTC_4362a.write.1u.tlog" "cmTC_4362a.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\Debug\\cmTC_4362a.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\cmTC_4362a.write.1u.tlog" "cmTC_4362a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4362a.dir\\Debug\\cmTC_4362a.tlog\\cmTC_4362a.lastbuildstate".
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-r6r33r\\cmTC_4362a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.04
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-anug2d"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-anug2d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-anug2d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_37bcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:50 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\cmTC_37bcc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_37bcc.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\".
+          Creating directory "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37bcc.dir\\Debug\\\\" /Fd"cmTC_37bcc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37bcc.dir\\Debug\\\\" /Fd"cmTC_37bcc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\cmTC_37bcc.exe" /INCREMENTAL /ILK:"cmTC_37bcc.dir\\Debug\\cmTC_37bcc.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-anug2d/Debug/cmTC_37bcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-anug2d/Debug/cmTC_37bcc.lib" /MACHINE:X64  /machine:x64 cmTC_37bcc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_37bcc.vcxproj -> C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\cmTC_37bcc.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\cmTC_37bcc.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\cmTC_37bcc.write.1u.tlog" "cmTC_37bcc.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\cmTC_37bcc.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\cmTC_37bcc.write.1u.tlog" "cmTC_37bcc.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\andre\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\Debug\\cmTC_37bcc.exe" "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\bin" "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\cmTC_37bcc.write.1u.tlog" "cmTC_37bcc.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_37bcc.dir\\Debug\\cmTC_37bcc.tlog\\cmTC_37bcc.lastbuildstate".
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-anug2d\\cmTC_37bcc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.89
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-2lnvhz"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-2lnvhz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-2lnvhz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e1996.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:52 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e1996.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\Debug\\".
+          Creating directory "cmTC_e1996.dir\\Debug\\cmTC_e1996.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e1996.dir\\Debug\\cmTC_e1996.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e1996.dir\\Debug\\cmTC_e1996.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1996.dir\\Debug\\\\" /Fd"cmTC_e1996.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1996.dir\\Debug\\\\" /Fd"cmTC_e1996.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c"
+          OFF64_T.c
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-2lnvhz\\cmTC_e1996.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nf2a7f"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nf2a7f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nf2a7f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c07d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:53 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c07d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\Debug\\".
+          Creating directory "cmTC_0c07d.dir\\Debug\\cmTC_0c07d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c07d.dir\\Debug\\cmTC_0c07d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0c07d.dir\\Debug\\cmTC_0c07d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c07d.dir\\Debug\\\\" /Fd"cmTC_0c07d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c07d.dir\\Debug\\\\" /Fd"cmTC_0c07d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\Debug\\cmTC_0c07d.exe" /INCREMENTAL /ILK:"cmTC_0c07d.dir\\Debug\\cmTC_0c07d.ilk" /NOLOGO /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nf2a7f/Debug/cmTC_0c07d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-nf2a7f/Debug/cmTC_0c07d.lib" /MACHINE:X64  /machine:x64 cmTC_0c07d.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj]
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\Debug\\cmTC_0c07d.exe : fatal error LNK1120: 1 unresolved externals [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj]
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj]
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\Debug\\cmTC_0c07d.exe : fatal error LNK1120: 1 unresolved externals [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-nf2a7f\\cmTC_0c07d.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.87
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-y8vr85"
+      binary: "C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-y8vr85"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/CPlusPlusLib/assimp/cmake-modules"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/CPlusPlusLib/assimp/build_msvc/CMakeFiles/CMakeScratch/TryCompile-y8vr85'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6800b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 1/6/2026 1:39:55 PM.
+        
+        Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\cmTC_6800b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6800b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\Debug\\".
+          Creating directory "cmTC_6800b.dir\\Debug\\cmTC_6800b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6800b.dir\\Debug\\cmTC_6800b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6800b.dir\\Debug\\cmTC_6800b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6800b.dir\\Debug\\\\" /Fd"cmTC_6800b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35220 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\andre\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6800b.dir\\Debug\\\\" /Fd"cmTC_6800b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\cmTC_6800b.vcxproj]
+        Done Building Project "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\cmTC_6800b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\cmTC_6800b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\CPlusPlusLib\\assimp\\build_msvc\\CMakeFiles\\CMakeScratch\\TryCompile-y8vr85\\cmTC_6800b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 1
+...

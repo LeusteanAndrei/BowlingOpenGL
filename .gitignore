@@ -9,13 +9,12 @@
 *.VC.opendb
 
 # Build directories
-Debug/
 Release/
-x64/
+
 x86/
 ipch/
 out/
-bin/
+
 obj/
 
 # Auto-generated files
@@ -33,10 +32,10 @@ packages/
 *.nupkg
 
 # CMake support (if using)
-CMakeFiles/
+
 CMakeCache.txt
 cmake_install.cmake
-*.cmake
+
 build/
 
 ### Compiled binaries ###
